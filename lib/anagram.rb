@@ -21,9 +21,9 @@ class Anagram
     #end
     #matches #return new array (empty or full)
   #end
-  array.collect do |word|
-    word.split("").sort == @word.split("").sort
+    array.collect do |word|
+      word.split("").sort == @word.split("").sort
+    end
   end
-end
 
 end
