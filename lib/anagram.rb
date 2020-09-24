@@ -22,7 +22,7 @@ class Anagram
     #matches #return new array (empty or full)
   #end
     array.select do |word|
-      word.split("").sort == @word.split("").sort
+      word.split("").sort == @some_word.split("").sort
     end
   end
 
